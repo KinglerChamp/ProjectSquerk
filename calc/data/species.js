@@ -764,7 +764,7 @@ var RBY = {
         weightkg: 29
     },
     Venomoth: {
-        types: ['Bug', 'Poison'],
+        types: ['Bug', 'Psychic'],
         bs: { hp: 70, at: 90, df: 60, sp: 90, sl: 90 },
         weightkg: 12.5
     },
@@ -790,7 +790,7 @@ var RBY = {
         weightkg: 18.6
     },
     Voltorb: {
-        types: ['Electric'. 'Grass'],
+        types: ['Electric', 'Grass'],
         bs: { hp: 40, at: 30, df: 50, sp: 100, sl: 55 },
         weightkg: 10.4,
         nfe: true
