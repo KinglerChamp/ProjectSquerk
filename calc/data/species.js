@@ -995,29 +995,29 @@ var GSC_PATCH = {
     Zubat: { bs: { sa: 30, sd: 40 } },
     Aipom: { types: ['Normal'], bs: { hp: 55, at: 70, df: 55, sa: 40, sd: 55, sp: 85 }, weightkg: 11.5 },
     Ampharos: {
-        types: ['Electric'],
-        bs: { hp: 90, at: 75, df: 75, sa: 115, sd: 90, sp: 55 },
+        types: ['Electric', 'Dragon'],
+        bs: { hp: 90, at: 75, df: 85, sa: 115, sd: 90, sp: 55 },
         weightkg: 61.5
     },
     Ariados: {
-        types: ['Bug', 'Poison'],
-        bs: { hp: 70, at: 90, df: 70, sa: 60, sd: 60, sp: 40 },
+        types: ['Bug', 'Dark'],
+        bs: { hp: 71, at: 102, df: 78, sa: 52, sd: 70, sp: 92 },
         weightkg: 33.5
     },
     Azumarill: {
         types: ['Water'],
-        bs: { hp: 100, at: 50, df: 80, sa: 50, sd: 80, sp: 50 },
+        bs: { hp: 100, at: 50, df: 80, sa: 60, sd: 80, sp: 50 },
         weightkg: 28.5
     },
     Bayleef: {
         types: ['Grass'],
-        bs: { hp: 60, at: 62, df: 80, sa: 63, sd: 80, sp: 60 },
+        bs: { hp: 60, at: 45, df: 80, sa: 80, sd: 80, sp: 60 },
         weightkg: 15.8,
         nfe: true
     },
     Bellossom: {
         types: ['Grass'],
-        bs: { hp: 75, at: 80, df: 85, sa: 90, sd: 100, sp: 50 },
+        bs: { hp: 75, at: 80, df: 100, sa: 100, sd: 100, sp: 50 },
         weightkg: 5.8
     },
     Blissey: {
@@ -1033,7 +1033,7 @@ var GSC_PATCH = {
     },
     Chikorita: {
         types: ['Grass'],
-        bs: { hp: 45, at: 49, df: 65, sa: 49, sd: 65, sp: 45 },
+        bs: { hp: 45, at: 35, df: 65, sa: 60, sd: 65, sp: 45 },
         weightkg: 6.4,
         nfe: true
     },
@@ -1051,7 +1051,7 @@ var GSC_PATCH = {
     },
     Corsola: {
         types: ['Water', 'Rock'],
-        bs: { hp: 55, at: 55, df: 85, sa: 65, sd: 85, sp: 35 },
+        bs: { hp: 55, at: 55, df: 50, sa: 145, sd: 130, sp: 35 },
         weightkg: 5
     },
     Crobat: {
@@ -1067,13 +1067,13 @@ var GSC_PATCH = {
     },
     Cyndaquil: {
         types: ['Fire'],
-        bs: { hp: 39, at: 52, df: 43, sa: 60, sd: 50, sp: 65 },
+        bs: { hp: 40, at: 55, df: 45, sa: 60, sd: 50, sp: 65 },
         weightkg: 7.9,
         nfe: true
     },
     Delibird: {
         types: ['Ice', 'Flying'],
-        bs: { hp: 45, at: 55, df: 45, sa: 65, sd: 45, sp: 75 },
+        bs: { hp: 55, at: 55, df: 45, sa: 95, sd: 85, sp: 95 },
         weightkg: 16
     },
     Donphan: {
@@ -1083,12 +1083,12 @@ var GSC_PATCH = {
     },
     Dunsparce: {
         types: ['Normal'],
-        bs: { hp: 100, at: 70, df: 70, sa: 65, sd: 65, sp: 45 },
+        bs: { hp: 125, at: 100, df: 80, sa: 85, sd: 75, sp: 55 },
         weightkg: 14
     },
     Elekid: {
         types: ['Electric'],
-        bs: { hp: 45, at: 63, df: 37, sa: 65, sd: 55, sp: 95 },
+        bs: { hp: 45, at: 68, df: 37, sa: 65, sd: 55, sp: 95 },
         weightkg: 23.5,
         nfe: true
     },
@@ -1119,10 +1119,10 @@ var GSC_PATCH = {
         bs: { hp: 75, at: 90, df: 140, sa: 60, sd: 60, sp: 40 },
         weightkg: 125.8
     },
-    Furret: { types: ['Normal'], bs: { hp: 85, at: 76, df: 64, sa: 45, sd: 55, sp: 90 }, weightkg: 32.5 },
+    Furret: { types: ['Normal'], bs: { hp: 85, at: 80, df: 65, sa: 45, sd: 55, sp: 90 }, weightkg: 32.5 },
     Girafarig: {
         types: ['Normal', 'Psychic'],
-        bs: { hp: 70, at: 80, df: 65, sa: 90, sd: 65, sp: 85 },
+        bs: { hp: 120, at: 90, df: 70, sa: 110, sd: 70, sp: 90 },
         weightkg: 41.5
     },
     Gligar: {
@@ -1131,8 +1131,8 @@ var GSC_PATCH = {
         weightkg: 64.8
     },
     Granbull: {
-        types: ['Normal'],
-        bs: { hp: 90, at: 120, df: 75, sa: 60, sd: 60, sp: 45 },
+        types: ['Fighting'],
+        bs: { hp: 90, at: 120, df: 85, sa: 60, sd: 60, sp: 55 },
         weightkg: 48.7
     },
     Heracross: {
@@ -1152,8 +1152,8 @@ var GSC_PATCH = {
         gender: 'N'
     },
     Hoothoot: {
-        types: ['Normal', 'Flying'],
-        bs: { hp: 60, at: 30, df: 30, sa: 36, sd: 56, sp: 50 },
+        types: ['Psychic', 'Flying'],
+        bs: { hp: 60, at: 30, df: 30, sa: 56, sd: 66, sp: 50 },
         weightkg: 21.2,
         nfe: true
     },
@@ -1182,7 +1182,7 @@ var GSC_PATCH = {
     },
     Jumpluff: {
         types: ['Grass', 'Flying'],
-        bs: { hp: 75, at: 55, df: 70, sa: 55, sd: 85, sp: 110 },
+        bs: { hp: 75, at: 55, df: 70, sa: 55, sd: 95, sp: 110 },
         weightkg: 3
     },
     Kingdra: {
@@ -1203,12 +1203,12 @@ var GSC_PATCH = {
     },
     Ledian: {
         types: ['Bug', 'Flying'],
-        bs: { hp: 55, at: 35, df: 50, sa: 55, sd: 110, sp: 85 },
+        bs: { hp: 71, at: 95, df: 50, sa: 54, sd: 110, sp: 85 },
         weightkg: 35.6
     },
     Ledyba: {
         types: ['Bug', 'Flying'],
-        bs: { hp: 40, at: 20, df: 30, sa: 40, sd: 80, sp: 55 },
+        bs: { hp: 40, at: 40, df: 30, sa: 20, sd: 80, sp: 55 },
         weightkg: 10.8,
         nfe: true
     },
@@ -1226,12 +1226,12 @@ var GSC_PATCH = {
     },
     Magcargo: {
         types: ['Fire', 'Rock'],
-        bs: { hp: 50, at: 50, df: 120, sa: 80, sd: 80, sp: 30 },
+        bs: { hp: 80, at: 50, df: 120, sa: 100, sd: 100, sp: 30 },
         weightkg: 55
     },
     Mantine: {
         types: ['Water', 'Flying'],
-        bs: { hp: 65, at: 40, df: 70, sa: 80, sd: 140, sp: 70 },
+        bs: { hp: 85, at: 40, df: 70, sa: 80, sd: 140, sp: 70 },
         weightkg: 220
     },
     Mareep: {
@@ -1247,8 +1247,8 @@ var GSC_PATCH = {
         nfe: true
     },
     Meganium: {
-        types: ['Grass'],
-        bs: { hp: 80, at: 82, df: 100, sa: 83, sd: 100, sp: 80 },
+        types: ['Grass', 'Psychic'],
+        bs: { hp: 80, at: 82, df: 100, sa: 105, sd: 100, sp: 80 },
         weightkg: 100.5
     },
     Miltank: {
@@ -1273,8 +1273,8 @@ var GSC_PATCH = {
         nfe: true
     },
     Noctowl: {
-        types: ['Normal', 'Flying'],
-        bs: { hp: 100, at: 50, df: 50, sa: 76, sd: 96, sp: 70 },
+        types: ['Psychic', 'Flying'],
+        bs: { hp: 100, at: 50, df: 50, sa: 105, sd: 100, sp: 70 },
         weightkg: 40.8
     },
     Octillery: {
@@ -1307,7 +1307,7 @@ var GSC_PATCH = {
     },
     Politoed: {
         types: ['Water'],
-        bs: { hp: 90, at: 75, df: 75, sa: 90, sd: 100, sp: 70 },
+        bs: { hp: 100, at: 75, df: 75, sa: 90, sd: 100, sp: 70 },
         weightkg: 33.9
     },
     Porygon2: {
@@ -1318,7 +1318,7 @@ var GSC_PATCH = {
     },
     Pupitar: {
         types: ['Rock', 'Ground'],
-        bs: { hp: 70, at: 84, df: 70, sa: 65, sd: 70, sp: 51 },
+        bs: { hp: 70, at: 84, df: 80, sa: 65, sd: 70, sp: 51 },
         weightkg: 152,
         nfe: true
     },
@@ -1334,8 +1334,8 @@ var GSC_PATCH = {
         nfe: true
     },
     Qwilfish: {
-        types: ['Water', 'Poison'],
-        bs: { hp: 65, at: 95, df: 75, sa: 55, sd: 55, sp: 85 },
+        types: ['Dark', 'Poison'],
+        bs: { hp: 85, at: 115, df: 95, sa: 65, sd: 65, sp: 85 },
         weightkg: 3.9
     },
     Raikou: {
@@ -1357,7 +1357,7 @@ var GSC_PATCH = {
     },
     Sentret: {
         types: ['Normal'],
-        bs: { hp: 35, at: 46, df: 34, sa: 35, sd: 45, sp: 20 },
+        bs: { hp: 35, at: 46, df: 34, sa: 35, sd: 45, sp: 58 },
         weightkg: 6,
         nfe: true
     },
@@ -1384,7 +1384,7 @@ var GSC_PATCH = {
     },
     Slugma: {
         types: ['Fire'],
-        bs: { hp: 40, at: 40, df: 40, sa: 70, sd: 40, sp: 20 },
+        bs: { hp: 65, at: 40, df: 65, sa: 75, sd: 65, sp: 20 },
         weightkg: 35,
         nfe: true
     },
@@ -1401,20 +1401,20 @@ var GSC_PATCH = {
         weightkg: 28
     },
     Snubbull: {
-        types: ['Normal'],
+        types: ['Fighting'],
         bs: { hp: 60, at: 80, df: 50, sa: 40, sd: 40, sp: 30 },
         weightkg: 7.8,
         nfe: true
     },
     Spinarak: {
         types: ['Bug', 'Poison'],
-        bs: { hp: 40, at: 60, df: 40, sa: 40, sd: 40, sp: 30 },
+        bs: { hp: 40, at: 60, df: 40, sa: 40, sd: 40, sp: 45 },
         weightkg: 8.5,
         nfe: true
     },
     Stantler: {
         types: ['Normal'],
-        bs: { hp: 73, at: 95, df: 62, sa: 85, sd: 65, sp: 85 },
+        bs: { hp: 103, at: 105, df: 72, sa: 105, sd: 75, sp: 85 },
         weightkg: 71.2
     },
     Steelix: {
@@ -1434,7 +1434,7 @@ var GSC_PATCH = {
         gender: 'N'
     },
     Sunflora: {
-        types: ['Grass'],
+        types: ['Grass', 'Fire'],
         bs: { hp: 75, at: 75, df: 55, sa: 105, sd: 85, sp: 30 },
         weightkg: 8.5
     },
@@ -1469,13 +1469,13 @@ var GSC_PATCH = {
     },
     Totodile: {
         types: ['Water'],
-        bs: { hp: 50, at: 65, df: 64, sa: 44, sd: 48, sp: 43 },
+        bs: { hp: 50, at: 65, df: 65, sa: 40, sd: 50, sp: 45 },
         weightkg: 9.5,
         nfe: true
     },
     Typhlosion: {
         types: ['Fire'],
-        bs: { hp: 78, at: 84, df: 78, sa: 109, sd: 85, sp: 100 },
+        bs: { hp: 75, at: 85, df: 75, sa: 110, sd: 85, sp: 100 },
         weightkg: 79.5
     },
     Tyranitar: {
@@ -1497,8 +1497,8 @@ var GSC_PATCH = {
         gender: 'N'
     },
     Ursaring: {
-        types: ['Normal'],
-        bs: { hp: 90, at: 130, df: 75, sa: 75, sd: 75, sp: 55 },
+        types: ['Normal', 'Ground'],
+        bs: { hp: 130, at: 140, df: 105, sa: 45, sd: 80, sp: 50 },
         weightkg: 125.8
     },
     Wobbuffet: {
@@ -1514,7 +1514,7 @@ var GSC_PATCH = {
     },
     Xatu: {
         types: ['Psychic', 'Flying'],
-        bs: { hp: 65, at: 75, df: 70, sa: 95, sd: 70, sp: 95 },
+        bs: { hp: 75, at: 75, df: 70, sa: 105, sd: 80, sp: 95 },
         weightkg: 15
     },
     Yanma: {
