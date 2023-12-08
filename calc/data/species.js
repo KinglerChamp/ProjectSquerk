@@ -3853,9 +3853,6 @@ var BW_PATCH = {
     Altaria: { types: ['Dragon', 'Fairy'] },
     Mismagius: { types: ['Ghost', 'Fairy'] },
     'Mime Jr.': { types: ['Psychic', 'Fairy'] },
-    Audino: { types: ['Normal', 'Fairy'] },
-    Cottonee: { types: ['Grass', 'Fairy'] },
-    Whimsicott: { types: ['Grass', 'Fairy'] },
     'Rotom-Fan': { types: ['Electric', 'Flying'] },
     'Rotom-Frost': { types: ['Electric', 'Ice'] },
     'Rotom-Heat': { types: ['Electric', 'Fire'] },
@@ -3900,7 +3897,7 @@ var BW_PATCH = {
         abilities: { 0: 'Shed Skin' }
     },
     Audino: {
-        types: ['Normal'],
+        types: ['Normal', 'Fairy'],
         bs: { hp: 103, at: 60, df: 86, sa: 60, sd: 86, sp: 50 },
         weightkg: 31,
         abilities: { 0: 'Healer' }
@@ -4034,7 +4031,7 @@ var BW_PATCH = {
         abilities: { 0: 'Guts' }
     },
     Cottonee: {
-        types: ['Grass'],
+        types: ['Grass', 'Fairy'],
         bs: { hp: 40, at: 27, df: 60, sa: 37, sd: 50, sp: 66 },
         weightkg: 0.6,
         nfe: true,
@@ -5014,7 +5011,7 @@ var BW_PATCH = {
         abilities: { 0: 'Illuminate' }
     },
     Whimsicott: {
-        types: ['Grass'],
+        types: ['Grass', 'Fairy'],
         bs: { hp: 60, at: 67, df: 85, sa: 77, sd: 75, sp: 116 },
         weightkg: 6.6,
         abilities: { 0: 'Prankster' }
