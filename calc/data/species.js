@@ -3889,7 +3889,7 @@ var BW_PATCH = {
         abilities: { 0: 'Rivalry' }
     },
     Basculin: {
-        types: ['Water', "Ghost'],
+        types: ['Water', 'Ghost'],
         bs: { hp: 120, at: 112, df: 65, sa: 80, sd: 75, sp: 78 },
         weightkg: 18,
         abilities: { 0: 'Reckless' },
