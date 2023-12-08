@@ -53,28 +53,25 @@ exports.__esModule = true;
 
 var util_1 = require("../util");
 var RBY = {
-  Fairy: {
+    '???': {
         Normal: 1,
         Grass: 1,
-        Fire: 0.5,
+        Fire: 1,
         Water: 1,
         Electric: 1,
         Ice: 1,
         Flying: 1,
         Bug: 1,
-        Poison: 0.5,
+        Poison: 1,
         Ground: 1,
         Rock: 1,
-        Fighting: 2,
+        Fighting: 1,
         Psychic: 1,
         Ghost: 1,
-        Dragon: 2,
-        Dark: 2,
-        Steel: 0.5,
-        Fairy: 1
+        Dragon: 1
     },
     Normal: {
-        Fairy: 1,
+        '???': 1,
         Normal: 1,
         Grass: 1,
         Fire: 1,
@@ -92,7 +89,7 @@ var RBY = {
         Dragon: 1
     },
     Grass: {
-        Fairy: 1,
+        '???': 1,
         Normal: 1,
         Grass: 0.5,
         Fire: 0.5,
@@ -110,7 +107,7 @@ var RBY = {
         Dragon: 0.5
     },
     Fire: {
-        Fairy: 1,
+        '???': 1,
         Normal: 1,
         Grass: 2,
         Fire: 0.5,
@@ -128,7 +125,7 @@ var RBY = {
         Dragon: 0.5
     },
     Water: {
-        Fairy: 1,
+        '???': 1,
         Normal: 1,
         Grass: 0.5,
         Fire: 2,
@@ -146,7 +143,7 @@ var RBY = {
         Dragon: 0.5
     },
     Electric: {
-        Fairy: 1,
+        '???': 1,
         Normal: 1,
         Grass: 0.5,
         Fire: 1,
@@ -164,7 +161,7 @@ var RBY = {
         Dragon: 0.5
     },
     Ice: {
-        Fairy: 1,
+        '???': 1,
         Normal: 1,
         Grass: 2,
         Fire: 1,
@@ -182,7 +179,7 @@ var RBY = {
         Dragon: 2
     },
     Flying: {
-        Fairy: 1,
+        '???': 1,
         Normal: 1,
         Grass: 2,
         Fire: 1,
@@ -200,7 +197,7 @@ var RBY = {
         Dragon: 1
     },
     Bug: {
-        Fairy: 0.5,
+        '???': 1,
         Normal: 1,
         Grass: 2,
         Fire: 0.5,
@@ -218,7 +215,7 @@ var RBY = {
         Dragon: 1
     },
     Poison: {
-        Fairy: 2,
+        '???': 1,
         Normal: 1,
         Grass: 2,
         Fire: 1,
@@ -236,7 +233,7 @@ var RBY = {
         Dragon: 1
     },
     Ground: {
-        Fairy: 1,
+        '???': 1,
         Normal: 1,
         Grass: 0.5,
         Fire: 2,
@@ -254,7 +251,7 @@ var RBY = {
         Dragon: 1
     },
     Rock: {
-        Fairy: 1,
+        '???': 1,
         Normal: 1,
         Grass: 1,
         Fire: 2,
@@ -272,7 +269,7 @@ var RBY = {
         Dragon: 1
     },
     Fighting: {
-        Fairy: 0.5,
+        '???': 1,
         Normal: 2,
         Grass: 1,
         Fire: 1,
@@ -290,7 +287,7 @@ var RBY = {
         Dragon: 1
     },
     Psychic: {
-        Fairy: 1,
+        '???': 1,
         Normal: 1,
         Grass: 1,
         Fire: 1,
@@ -308,7 +305,7 @@ var RBY = {
         Dragon: 1
     },
     Ghost: {
-        Fairy: 1,
+        '???': 1,
         Normal: 0,
         Grass: 1,
         Fire: 1,
@@ -326,7 +323,7 @@ var RBY = {
         Dragon: 1
     },
     Dragon: {
-        Fairy: 0,
+        '???': 1,
         Normal: 1,
         Grass: 1,
         Fire: 1,
@@ -362,7 +359,7 @@ var GSC = (0, util_1.extend)(true, {}, RBY, {
     Ghost: { Psychic: 2, Dark: 0.5, Steel: 0.5 },
     Dragon: { Dark: 1, Steel: 0.5 },
     Dark: {
-        Fairy: 0.5,
+        '???': 1,
         Normal: 1,
         Grass: 1,
         Fire: 1,
@@ -382,7 +379,7 @@ var GSC = (0, util_1.extend)(true, {}, RBY, {
         Steel: 0.5
     },
     Steel: {
-        Fairy: 2,
+        '???': 1,
         Normal: 1,
         Grass: 1,
         Fire: 0.5,
