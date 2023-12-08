@@ -401,8 +401,7 @@ var GSC = (0, util_1.extend)(true, {}, RBY, {
 });
 var ADV = GSC;
 var DPP = GSC;
-var BW = GSC;
-var XY = (0, util_1.extend)(true, {}, GSC, {
+var BW = (0, util_1.extend)(true, {}, GSC, {
     '???': { Fairy: 1 },
     Normal: { Fairy: 1 },
     Grass: { Fairy: 1 },
@@ -443,6 +442,7 @@ var XY = (0, util_1.extend)(true, {}, GSC, {
         Fairy: 1
     }
 });
+var XY = BW;
 var SM = XY;
 var SS = SM;
 var SV = SS;
