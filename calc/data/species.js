@@ -3826,6 +3826,9 @@ var DPP_PATCH = {
 };
 var DPP = (0, util_1.extend)(true, {}, ADV, DPP_PATCH);
 var BW_PATCH = {
+    Clefable: { types: ['Fairy'] },
+    Clefairy: { types: ['Fairy'] },
+    Cleffa: { types: ['Fairy'] },
     'Rotom-Fan': { types: ['Electric', 'Flying'] },
     'Rotom-Frost': { types: ['Electric', 'Ice'] },
     'Rotom-Heat': { types: ['Electric', 'Fire'] },
