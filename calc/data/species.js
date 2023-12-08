@@ -3826,9 +3826,6 @@ var DPP_PATCH = {
 };
 var DPP = (0, util_1.extend)(true, {}, ADV, DPP_PATCH);
 var BW_PATCH = {
-    Clefable: { types: ['Fairy'] },
-    Clefairy: { types: ['Fairy'] },
-    Cleffa: { types: ['Fairy'] },
     'Rotom-Fan': { types: ['Electric', 'Flying'] },
     'Rotom-Frost': { types: ['Electric', 'Ice'] },
     'Rotom-Heat': { types: ['Electric', 'Fire'] },
@@ -5101,10 +5098,12 @@ var XY_PATCH = {
     Lucario: { otherFormes: ['Lucario-Mega'] },
     Manectric: { otherFormes: ['Manectric-Mega'] },
     Marill: { types: ['Water', 'Fairy'] },
-    Mawile: { otherFormes: ['Mawile-Mega'] },
+    Mawile: { types: ['Steel', 'Fairy'], otherFormes: ['Mawile-Mega'] },
     Medicham: { otherFormes: ['Medicham-Mega'] },
     Metagross: { otherFormes: ['Metagross-Mega'] },
     Mewtwo: { otherFormes: ['Mewtwo-Mega-X', 'Mewtwo-Mega-Y'] },
+    'Mime Jr.': { types: ['Psychic', 'Fairy'] },
+    'Mr. Mime': { types: ['Psychic', 'Fairy'] },
     Nidoking: { bs: { at: 102 } },
     Nidoqueen: { bs: { at: 92 } },
     Pidgeot: { bs: { sp: 101 }, otherFormes: ['Pidgeot-Mega'] },
