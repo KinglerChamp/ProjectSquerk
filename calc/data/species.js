@@ -3839,7 +3839,7 @@ var BW_PATCH = {
     Jigglypuff: { types: ['Normal', 'Fairy'] },
     Wigglytuff: { types: ['Normal', 'Fairy'] },
     'Mr. Mime': { types: ['Psychic', 'Fairy'] },
-    Igglypuff: { types: ['Normal', 'Fairy'] },
+    Igglybuff: { types: ['Normal', 'Fairy'] },
     Bellossom: { types: ['Grass', 'Fairy'] },
     Marill: { types: ['Water', 'Fairy'] },
     Misdreavus: { types: ['Ghost', 'Fairy'] },
