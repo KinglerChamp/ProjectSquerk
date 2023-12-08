@@ -3838,7 +3838,6 @@ var BW_PATCH = {
     Ninetales: { types: ['Fire', 'Fairy'] },
     Jigglypuff: { types: ['Normal', 'Fairy'] },
     Wigglypuff: { types: ['Normal', 'Fairy'] },
-    'Mr. Mime': { types: ['Psychic', 'Fairy'] },
     'Rotom-Fan': { types: ['Electric', 'Flying'] },
     'Rotom-Frost': { types: ['Electric', 'Ice'] },
     'Rotom-Heat': { types: ['Electric', 'Fire'] },
