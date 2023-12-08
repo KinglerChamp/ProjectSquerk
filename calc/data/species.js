@@ -3829,15 +3829,6 @@ var BW_PATCH = {
     Clefable: { types: ['Fairy'] },
     Clefairy: { types: ['Fairy'] },
     Cleffa: { types: ['Fairy'] },
-    Ninetails: { types: ['Fire', 'Fairy'] };
-    Jigglypuff: { types: ['Normal', 'Fairy'] };
-    Wigglytuff: { types: ['Normal', 'Fairy'] };
-    Igglybuff: { types: ['Normal', 'Fairy'] };
-    'Mime Jr.': { types: ['Psychic', 'Fairy'] },
-    'Mr. Mime': { types: ['Psychic', 'Fairy'] }
-    Togepi: { types: ['Fairy'] };
-    Togetic: { types: ['Flying', 'Fairy'] };
-    Bellosom: { types: ['Grass', 'Fairy'] };
     'Rotom-Fan': { types: ['Electric', 'Flying'] },
     'Rotom-Frost': { types: ['Electric', 'Ice'] },
     'Rotom-Heat': { types: ['Electric', 'Fire'] },
