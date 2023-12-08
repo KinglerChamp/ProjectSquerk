@@ -3827,6 +3827,18 @@ var DPP_PATCH = {
 var DPP = (0, util_1.extend)(true, {}, ADV, DPP_PATCH);
 var BW_PATCH = {
     Azumarill: { types: ['Water', 'Fairy'] },
+    Clefairy: { types: ['Fairy'] },
+    Clefable: { types: ['Fairy'] },
+    Cleffa: { types: ['Fairy'] },
+    Togepi: { types: ['Fairy'] },
+    Togetic: { types: ['Flying', 'Fairy'] },
+    Snubbul: { types: ['Fighting', 'Fairy'] },
+    Granbull: { types: ['Fighting', 'Fairy'] },
+    Celebi: { types: ['Grass', 'Fairy'] },
+    Ninetales: { types: ['Fire', 'Fairy'] },
+    Jigglypuff: { types: ['Normal', 'Fairy'] },
+    Wigglypuff: { types: ['Normal', 'Fairy'] },
+    'Mr. Mime': { types: ['Psychic', 'Fairy'] },
     'Rotom-Fan': { types: ['Electric', 'Flying'] },
     'Rotom-Frost': { types: ['Electric', 'Ice'] },
     'Rotom-Heat': { types: ['Electric', 'Fire'] },
