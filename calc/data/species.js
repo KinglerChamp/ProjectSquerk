@@ -3833,7 +3833,8 @@ var BW_PATCH = {
     Jigglypuff: { types: ['Normal', 'Fairy'] };
     Wigglytuff: { types: ['Normal', 'Fairy'] };
     Igglybuff: { types: ['Normal', 'Fairy'] };
-    Mr. Mime: { types: ['Psychic', 'Fairy'] };
+    'Mime Jr.': { types: ['Psychic', 'Fairy'] },
+    'Mr. Mime': { types: ['Psychic', 'Fairy'] }
     Togepi: { types: ['Fairy'] };
     Togetic: { types: ['Flying', 'Fairy'] };
     Bellosom: { types: ['Grass', 'Fairy'] };
@@ -5109,12 +5110,10 @@ var XY_PATCH = {
     Lucario: { otherFormes: ['Lucario-Mega'] },
     Manectric: { otherFormes: ['Manectric-Mega'] },
     Marill: { types: ['Water', 'Fairy'] },
-    Mawile: { types: ['Steel', 'Fairy'], otherFormes: ['Mawile-Mega'] },
+    Mawile: { otherFormes: ['Mawile-Mega'] },
     Medicham: { otherFormes: ['Medicham-Mega'] },
     Metagross: { otherFormes: ['Metagross-Mega'] },
     Mewtwo: { otherFormes: ['Mewtwo-Mega-X', 'Mewtwo-Mega-Y'] },
-    'Mime Jr.': { types: ['Psychic', 'Fairy'] },
-    'Mr. Mime': { types: ['Psychic', 'Fairy'] },
     Nidoking: { bs: { at: 102 } },
     Nidoqueen: { bs: { at: 92 } },
     Pidgeot: { bs: { sp: 101 }, otherFormes: ['Pidgeot-Mega'] },
