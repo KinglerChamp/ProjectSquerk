@@ -3830,6 +3830,8 @@ var BW_PATCH = {
     Clefable: { types: ['Fairy'] },
     Clefairy: { types: ['Fairy'] },
     Cleffa: { types: ['Fairy'] },
+    Togepi: { types: ['Fairy'] },
+    Togetic: { types: ['Flying', 'Fairy'] },
     'Rotom-Fan': { types: ['Electric', 'Flying'] },
     'Rotom-Frost': { types: ['Electric', 'Ice'] },
     'Rotom-Heat': { types: ['Electric', 'Fire'] },
