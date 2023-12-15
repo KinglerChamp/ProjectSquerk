@@ -1411,7 +1411,7 @@ function loadCustomList(id) {
 }
 
 function get_trainer_names() {
-    var all_poks = SETDEX_SS
+    var all_poks = SETDEX_BW
     var trainer_names = [] 
 
     for (const [pok_name, poks] of Object.entries(all_poks)) {
