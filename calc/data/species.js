@@ -118,7 +118,7 @@ var RBY = {
     },
     Butterfree: {
         types: ['Bug', 'Psychic'],
-        bs: { hp: 60, at: 45, df: 40, sp: 75, sl: 80 },
+        bs: { hp: 65, at: 45, df: 40, sp: 75, sl: 80 },
         weightkg: 32
     },
     Caterpie: {
@@ -134,7 +134,7 @@ var RBY = {
     },
     Charizard: {
         types: ['Fire', 'Flying'],
-        bs: { hp: 78, at: 84, df: 78, sp: 100, sl: 85 },
+        bs: { hp: 75, at: 85, df: 75, sp: 100, sl: 85 },
         weightkg: 90.5
     },
     Charmander: {
@@ -579,7 +579,7 @@ var RBY = {
     Persian: { types: ['Normal'], bs: { hp: 65, at: 70, df: 60, sp: 115, sl: 65 }, weightkg: 32 },
     Pidgeot: {
         types: ['Normal', 'Flying'],
-        bs: { hp: 85, at: 55, df: 75, sp: 100, sl: 70 },
+        bs: { hp: 85, at: 55, df: 75, sp: 105, sl: 70 },
         weightkg: 39.5
     },
     Pidgeotto: {
@@ -722,7 +722,7 @@ var RBY = {
     },
     Squirtle: {
         types: ['Water'],
-        bs: { hp: 44, at: 48, df: 65, sp: 43, sl: 50 },
+        bs: { hp: 45, at: 45, df: 65, sp: 43, sl: 50 },
         weightkg: 9,
         nfe: true
     },
@@ -855,7 +855,7 @@ var GSC_PATCH = {
     Butterfree: { bs: { sa: 90, sd: 80 } },
     Caterpie: { bs: { sa: 20, sd: 20 } },
     Chansey: { bs: { sa: 35, sd: 105 }, nfe: true },
-    Charizard: { bs: { sa: 109, sd: 85 } },
+    Charizard: { bs: { sa: 110, sd: 85 } },
     Charmander: { bs: { sa: 60, sd: 50 } },
     Charmeleon: { bs: { sa: 80, sd: 65 } },
     Clefable: { bs: { sa: 95, sd: 90 } },
@@ -971,7 +971,7 @@ var GSC_PATCH = {
     Slowpoke: { bs: { sa: 65, sd: 40 } },
     Snorlax: { bs: { sa: 65, sd: 110 } },
     Spearow: { bs: { sa: 25, sd: 35 } },
-    Squirtle: { bs: { sa: 50, sd: 64 } },
+    Squirtle: { bs: { sa: 50, sd: 65 } },
     Starmie: { bs: { sa: 100, sd: 85 }, gender: 'N' },
     Staryu: { bs: { sa: 70, sd: 55 }, gender: 'N' },
     Tangela: { bs: { sa: 100, sd: 40 } },
