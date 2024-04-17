@@ -1051,7 +1051,7 @@ var GSC_PATCH = {
     },
     Corsola: {
         types: ['Water', 'Rock'],
-        bs: { hp: 55, at: 55, df: 50, sa: 145, sd: 130, sp: 35 },
+        bs: { hp: 65, at: 55, df: 95, sa: 65, sd: 95, sp: 35 },
         weightkg: 5
     },
     Crobat: {
@@ -1087,7 +1087,7 @@ var GSC_PATCH = {
         weightkg: 14
     },
     Elekid: {
-        types: ['Electric'],
+        types: ['Electric', 'Fighting'],
         bs: { hp: 45, at: 68, df: 37, sa: 65, sd: 55, sp: 95 },
         weightkg: 23.5,
         nfe: true
@@ -1132,7 +1132,7 @@ var GSC_PATCH = {
     },
     Granbull: {
         types: ['Fighting'],
-        bs: { hp: 90, at: 120, df: 85, sa: 60, sd: 60, sp: 55 },
+        bs: { hp: 90, at: 120, df: 95, sa: 60, sd: 60, sp: 55 },
         weightkg: 48.7
     },
     Heracross: {
@@ -1219,7 +1219,7 @@ var GSC_PATCH = {
         gender: 'N'
     },
     Magby: {
-        types: ['Fire'],
+        types: ['Fire', 'Poison'],
         bs: { hp: 45, at: 75, df: 37, sa: 70, sd: 55, sp: 83 },
         weightkg: 21.4,
         nfe: true
@@ -1248,7 +1248,7 @@ var GSC_PATCH = {
     },
     Meganium: {
         types: ['Grass', 'Psychic'],
-        bs: { hp: 80, at: 82, df: 100, sa: 105, sd: 100, sp: 80 },
+        bs: { hp: 80, at: 65, df: 100, sa: 105, sd: 100, sp: 80 },
         weightkg: 100.5
     },
     Miltank: {
@@ -1274,11 +1274,11 @@ var GSC_PATCH = {
     },
     Noctowl: {
         types: ['Psychic', 'Flying'],
-        bs: { hp: 100, at: 50, df: 50, sa: 105, sd: 100, sp: 70 },
+        bs: { hp: 100, at: 50, df: 50, sa: 100, sd: 105, sp: 70 },
         weightkg: 40.8
     },
     Octillery: {
-        types: ['Water'],
+        types: ['Water', 'Fire'],
         bs: { hp: 75, at: 105, df: 75, sa: 105, sd: 75, sp: 45 },
         weightkg: 28.5
     },
@@ -1413,7 +1413,7 @@ var GSC_PATCH = {
         nfe: true
     },
     Stantler: {
-        types: ['Normal'],
+        types: ['Normal', 'Psychic'],
         bs: { hp: 103, at: 105, df: 72, sa: 105, sd: 75, sp: 85 },
         weightkg: 71.2
     },
