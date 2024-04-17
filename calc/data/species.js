@@ -101,7 +101,7 @@ var RBY = {
     },
     Bellsprout: {
         types: ['Grass', 'Poison'],
-        bs: { hp: 50, at: 75, df: 65, sp: 40, sl: 70 },
+        bs: { hp: 50, at: 75, df: 65, sp: 45, sl: 70 },
         weightkg: 4,
         nfe: true
     },
@@ -257,7 +257,7 @@ var RBY = {
         weightkg: 15
     },
     Fearow: {
-        types: ['Normal', 'Flying'],
+        types: ['Flying'],
         bs: { hp: 65, at: 110, df: 65, sp: 110, sl: 61 },
         weightkg: 38
     },
@@ -449,7 +449,7 @@ var RBY = {
         nfe: true
     },
     Magmar: {
-        types: ['Fire'],
+        types: ['Fire', 'Poison'],
         bs: { hp: 65, at: 95, df: 57, sp: 93, sl: 85 },
         weightkg: 44.5
     },
@@ -500,7 +500,7 @@ var RBY = {
     },
     'Mr. Mime': {
         types: ['Psychic'],
-        bs: { hp: 40, at: 100, df: 65, sp: 90, sl: 100 },
+        bs: { hp: 40, at: 100, df: 65, sp: 100, sl: 100 },
         weightkg: 54.5
     },
     Muk: { types: ['Poison'], bs: { hp: 105, at: 105, df: 75, sp: 50, sl: 65 }, weightkg: 30 },
@@ -522,13 +522,13 @@ var RBY = {
     },
     'Nidoran-M': {
         types: ['Poison'],
-        bs: { hp: 45, at: 60, df: 40, sp: 40, sl: 40 },
+        bs: { hp: 45, at: 60, df: 40, sp: 50, sl: 40 },
         weightkg: 9,
         nfe: true
     },
     Nidorina: {
         types: ['Poison'],
-        bs: { hp: 70, at: 60, df: 70, sp: 56, sl: 55 },
+        bs: { hp: 70, at: 60, df: 70, sp: 55, sl: 55 },
         weightkg: 20,
         nfe: true
     },
@@ -573,7 +573,7 @@ var RBY = {
     },
     Parasect: {
         types: ['Bug', 'Grass'],
-        bs: { hp: 60, at: 100, df: 80, sp: 30, sl: 80 },
+        bs: { hp: 60, at: 95, df: 100, sp: 30, sl: 80 },
         weightkg: 29.5
     },
     Persian: { types: ['Normal'], bs: { hp: 65, at: 70, df: 60, sp: 115, sl: 65 }, weightkg: 32 },
@@ -631,7 +631,7 @@ var RBY = {
     },
     Primeape: {
         types: ['Fighting', 'Ghost'],
-        bs: { hp: 110, at: 115, df: 80, sp: 90, sl: 60 },
+        bs: { hp: 110, at: 115, df: 80, sp: 95, sl: 60 },
         weightkg: 32
     },
     Psyduck: {
@@ -715,14 +715,14 @@ var RBY = {
         weightkg: 460
     },
     Spearow: {
-        types: ['Normal', 'Flying'],
+        types: ['Flying'],
         bs: { hp: 45, at: 76, df: 35, sp: 76, sl: 31 },
         weightkg: 2,
         nfe: true
     },
     Squirtle: {
         types: ['Water'],
-        bs: { hp: 45, at: 45, df: 65, sp: 43, sl: 50 },
+        bs: { hp: 45, at: 45, df: 65, sp: 45, sl: 50 },
         weightkg: 9,
         nfe: true
     },
@@ -961,7 +961,7 @@ var GSC_PATCH = {
     Rhydon: { bs: { sa: 45, sd: 45 } },
     Rhyhorn: { bs: { sa: 30, sd: 30 } },
     Sandshrew: { bs: { sa: 10, sd: 35 } },
-    Sandslash: { bs: { sa: 45, sd: 65 } },
+    Sandslash: { bs: { sa: 25, sd: 65 } },
     Scyther: { bs: { sa: 55, sd: 80 }, nfe: true },
     Seadra: { bs: { sa: 95, sd: 45 }, nfe: true },
     Seaking: { bs: { sa: 65, sd: 80 } },
