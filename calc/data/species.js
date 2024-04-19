@@ -3355,7 +3355,7 @@ var DPP_PATCH = {
         abilities: { 0: 'Rivalry' }
     },
     Magmortar: {
-        types: ['Fire'],
+        types: ['Fire', 'Poison'],
         bs: { hp: 75, at: 95, df: 67, sa: 125, sd: 95, sp: 83 },
         weightkg: 68,
         abilities: { 0: 'Flame Body' }
@@ -3497,7 +3497,7 @@ var DPP_PATCH = {
         abilities: { 0: 'Unaware' }
     },
     Probopass: {
-        types: ['Rock', 'Steel'],
+        types: ['Rock', 'Electric'],
         bs: { hp: 60, at: 55, df: 145, sa: 75, sd: 150, sp: 40 },
         weightkg: 340,
         abilities: { 0: 'Sturdy' }
@@ -3523,7 +3523,7 @@ var DPP_PATCH = {
     },
     Rampardos: {
         types: ['Rock', 'Dragon'],
-        bs: { hp: 95, at: 165, df: 70, sa: 25, sd: 60, sp: 80 },
+        bs: { hp: 100, at: 165, df: 70, sa: 20, sd: 60, sp: 80 },
         weightkg: 102.5,
         abilities: { 0: 'Mold Breaker' }
     },
