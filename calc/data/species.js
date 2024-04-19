@@ -1937,7 +1937,7 @@ var ADV_PATCH = {
         baseSpecies: 'Castform'
     },
     Chimecho: {
-        types: ['Psychic'],
+        types: ['Psychic', 'Ghost'],
         bs: { hp: 65, at: 50, df: 80, sa: 95, sd: 90, sp: 65 },
         weightkg: 1,
         abilities: { 0: 'Levitate' }
@@ -2060,7 +2060,7 @@ var ADV_PATCH = {
         abilities: { 0: 'Swift Swim' }
     },
     Flygon: {
-        types: ['Ground', 'Dragon'],
+        types: ['Bug', 'Dragon'],
         bs: { hp: 90, at: 85, df: 85, sa: 130, sd: 85, sp: 125 },
         weightkg: 82,
         abilities: { 0: 'Levitate' }
@@ -2248,7 +2248,7 @@ var ADV_PATCH = {
         abilities: { 0: 'Torrent' }
     },
     Masquerain: {
-        types: ['Bug', 'Flying'],
+        types: ['Bug', 'Water'],
         bs: { hp: 70, at: 60, df: 62, sa: 100, sd: 82, sp: 80 },
         weightkg: 3.6,
         abilities: { 0: 'Intimidate' }
@@ -2326,7 +2326,7 @@ var ADV_PATCH = {
         abilities: { 0: 'Speed Boost' }
     },
     Nosepass: {
-        types: ['Rock'],
+        types: ['Rock', 'Electric'],
         bs: { hp: 30, at: 45, df: 135, sa: 45, sd: 90, sp: 30 },
         weightkg: 97,
         abilities: { 0: 'Sturdy' }
@@ -2603,7 +2603,7 @@ var ADV_PATCH = {
         abilities: { 0: 'White Smoke' }
     },
     Trapinch: {
-        types: ['Ground'],
+        types: ['Bug', 'Ground'],
         bs: { hp: 50, at: 100, df: 50, sa: 45, sd: 45, sp: 10 },
         weightkg: 15,
         nfe: true,
@@ -2623,7 +2623,7 @@ var ADV_PATCH = {
         abilities: { 0: 'Chlorophyll' }
     },
     Vibrava: {
-        types: ['Ground', 'Dragon'],
+        types: ['Bug', 'Dragon'],
         bs: { hp: 50, at: 70, df: 55, sa: 100, sd: 55, sp: 90 },
         weightkg: 15.3,
         abilities: { 0: 'Levitate' },
