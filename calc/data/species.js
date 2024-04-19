@@ -4226,7 +4226,7 @@ var BW_PATCH = {
     },
     Galvantula: {
         types: ['Bug', 'Electric'],
-        bs: { hp: 70, at: 75, df: 60, sa: 100, sd: 60, sp: 108 },
+        bs: { hp: 70, at: 75, df: 60, sa: 100, sd: 60, sp: 110 },
         weightkg: 14.3,
         abilities: { 0: 'Compound Eyes' }
     },
@@ -4697,7 +4697,7 @@ var BW_PATCH = {
     },
     Samurott: {
         types: ['Water', 'Dark'],
-        bs: { hp: 90, at: 110, df: 80, sa: 110, sd: 70, sp: 85 },
+        bs: { hp: 90, at: 110, df: 80, sa: 100, sd: 65, sp: 85 },
         weightkg: 94.6,
         abilities: { 0: 'Torrent' }
     },
